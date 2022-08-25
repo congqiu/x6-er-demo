@@ -1,0 +1,39 @@
+.er-loading {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 5%);
+}
+.entity-relationship {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    height: 50px;
+  }
+  main {
+    display: flex;
+    flex-grow: 1;
+    .left {
+      width: 300px;
+      padding: 0 15px;
+    }
+    .center {
+      flex-grow: 1;
+      .graph {
+        height: 100%;
+      }
+    }
+    .right {
+      width: 400px;
+      padding: 0 15px;
+    }
+  }
+}
