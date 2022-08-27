@@ -1,16 +1,24 @@
 {
   "name": "x6-er-demo",
   "description": "React 中基于 X6 实现一个 ER 图编辑器",
-  "keywords": ["react", "antv", "x6", "er"],
-  "private": true,
+  "keywords": [
+    "react",
+    "antv",
+    "x6",
+    "er"
+  ],
   "version": "0.0.1",
   "license": "MIT",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/congqiu/x6-er-demo.git"
+    "url": "git+https://github.com/congqiu/x6-er-demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/congqiu/x6-er-demo/issues"
   },
   "homepage": "https://github.com/congqiu/x6-er-demo",
+  "author": "congqiu",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -27,18 +35,11 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@fineorg/eslint-config-react": "^0.0.2",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
-    "@typescript-eslint/eslint-plugin": "^5.33.1",
-    "@typescript-eslint/parser": "^5.33.1",
     "@vitejs/plugin-react": "^2.0.1",
     "eslint": "^8.22.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "^7.30.1",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-unused-imports": "^2.0.0",
     "prettier": "^2.7.1",
     "typescript": "^4.6.4",
     "utility-types": "^3.10.0",
